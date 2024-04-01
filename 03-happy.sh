@@ -17,8 +17,8 @@ fi
 echo "Is today weekend?"
 read answer
 
-if [ "$answer" = "yes" ]; then
-echo "Lets go Party!!"
-else
+if [ "$answer" = "no" ]; then
 echo "Whatever, Lets go Party!!"
+else
+echo "Lets go Party!!"
 fi
